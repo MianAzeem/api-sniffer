@@ -74,10 +74,10 @@ The sniffer launches a managed Chromium instance and intercepts network traffic 
 ```json
 {
   "method": "GET",
-  "url": "/api/v3/fraudwatch/carrier_companies/risk_level_aggregation",
+  "url": "/api/v2/service/companies/risk_aggregation",
   "query": {
     "filters": {
-      "group_id": null,
+      "group_id": 123,
       "in_network": true
     }
   },
